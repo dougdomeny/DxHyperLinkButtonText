@@ -13,12 +13,11 @@ The server control source code is at DxHyperLinkButtonText/DxHyperLinkButtonText
 
 Examples,
 
-    &lt;dxx:HyperLinkButtonText ID="Link" runat="server"
-            Text="Derived from &lt;a>DevExpress ASPxHyperLink Class&lt;/a>"
+    <dxx:HyperLinkButtonText ID="Link" runat="server"
+            Text="Derived from <a>DevExpress ASPxHyperLink Class</a>"
             NavigateUrl="http://documentation.devexpress.com/#AspNet/clsDevExpressWebASPxEditorsASPxHyperLinktopic" />
 
 
-
-    &lt;dxx:HyperLinkButtonText ID="Button" runat="server"
-            Text="Invoke the server-side &lt;a>Click&lt;/a> event"
+    <dxx:HyperLinkButtonText ID="Button" runat="server"
+            Text="Invoke the server-side <a>Click</a> event"
             OnClick="Button_Click" />
